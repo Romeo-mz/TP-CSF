@@ -204,7 +204,7 @@ void TP_Odalid::onPayButtonClicked()
     uint8_t sak[1];
     uint8_t uid[12];
     uint16_t uid_len = 12;
-    uint32_t creditValue = 0;
+    uint32_t creditValue = 0; //init at 0
 
     status = ISO14443_3_A_PollCard(&Reader, atq, sak, uid, &uid_len);
     status = Mf_Classic_Read_Value(&Reader, TRUE, 14, &creditValue, AuthKeyA, 3);
