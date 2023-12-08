@@ -1,7 +1,8 @@
 # Gestion de Cartes Sans Contact - Mifare Classic
 
 Ce projet vise à développer une interface interactive pour la gestion de cartes sans contact basées sur la technologie Mifare Classic. L'interface, créée avec l'outil de conception QT, offre des fonctionnalités telles que la lecture des informations personnelles, l'incrémentation/décrémentation sécurisée d'unités, et la déconnexion de la carte.
-
+## Compte rendu
+Voici le compte rendu en PDF du projet : [ici](CR_Thivent.pdf)
 ## Auteurs
 - **Auteurs :** Martinez Roméo - Ngyuen Lionel
 
